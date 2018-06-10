@@ -22,7 +22,7 @@ namespace Lab04_Tic_Tac_Toe
                     Console.WriteLine("Please enter SOMETHING for a name.");
                     player1Name = Console.ReadLine();
                 }
-                Player player1 = new Player(player1Name);
+                Player player1 = new Player(player1Name, 'X');
 
                 Console.WriteLine("Player 2, please enter your name:");
                 string player2Name = Console.ReadLine();
@@ -31,9 +31,14 @@ namespace Lab04_Tic_Tac_Toe
                     Console.WriteLine("Please enter SOMETHING for a name.");
                     player2Name = Console.ReadLine();
                 }
-                Player player2 = new Player(player2Name);
+                Player player2 = new Player(player2Name, 'O');
 
+                Console.Clear();
                 Console.WriteLine($"Welcome, {player1.Name} and {player2.Name}.");
+                Console.WriteLine($"{player1.Name}'s marker: {player1.Marker}.");
+                Console.WriteLine($"{player2.Name}'s marker: {player2.Marker}.");
+                Console.WriteLine($"Ready...FIGHT!\n");
+
 
                 if (player1Win == false && player2Win == false)
                 {
