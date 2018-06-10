@@ -14,6 +14,12 @@ namespace Lab04_Tic_Tac_Toe
             {
                 bool player1Win = false;
                 bool player2Win = false;
+                string[][] defaultLayout = new string[][] 
+                { 
+                    new string[] { "1", "2", "3" }, 
+                    new string[] { "4", "5", "6" }, 
+                    new string[] { "7", "8", "9" }
+                };
 
                 Console.WriteLine("Player 1, please enter your name:");
                 string player1Name = Console.ReadLine();
@@ -38,7 +44,7 @@ namespace Lab04_Tic_Tac_Toe
                 Console.WriteLine($"{player1.Name}'s marker: {player1.Marker}.");
                 Console.WriteLine($"{player2.Name}'s marker: {player2.Marker}.");
                 Console.WriteLine($"Ready...FIGHT!\n");
-
+                DisplayBoard(defaultLayout);
 
                 if (player1Win == false && player2Win == false)
                 {
@@ -64,6 +70,19 @@ namespace Lab04_Tic_Tac_Toe
 
             Console.WriteLine("Thank you for playing! Press any button to exit.");
             Console.ReadLine();
+        }
+
+        public static void DisplayBoard(string[][] datBoard)
+        {
+            Console.WriteLine("Current game board:");
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                   Console.Write($"|{datBoard[i][j]}|");
+                }
+                Console.WriteLine();
+            }
         }
 
     }
