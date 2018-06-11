@@ -24,6 +24,7 @@ namespace Lab04_Tic_Tac_Toe
             bool runProgram = true;
 
             Console.WriteLine("Welcome to Lab 04: Tic-Tac-Toe!\n");
+            // outer loop for main program
             while (runProgram == true)
             {
                 bool player1Win = false;
@@ -55,6 +56,7 @@ namespace Lab04_Tic_Tac_Toe
                 GameBoard datGameBoard = new GameBoard();
                 bool takingTurns = true;
                 int turn = 1;
+                // inner loop for alternating turns once users have entered names and game starts
                 while (takingTurns == true)
                 {
                     Console.WriteLine();
@@ -150,6 +152,7 @@ namespace Lab04_Tic_Tac_Toe
                 return false;
             try
             {
+                // assigning board values string names for easier understanding
                 string topLeft = datBoard[0][0];
                 string topCenter = datBoard[0][1];
                 string topRight = datBoard[0][2];
