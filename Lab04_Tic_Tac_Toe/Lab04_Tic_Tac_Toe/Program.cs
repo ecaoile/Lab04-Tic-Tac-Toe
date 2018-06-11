@@ -36,7 +36,7 @@ namespace Lab04_Tic_Tac_Toe
                     Console.WriteLine("Please enter SOMETHING for a name.");
                     player1Name = Console.ReadLine();
                 }
-                Player player1 = new Player(player1Name, "X");
+                Player player1 = new Player(player1Name, "X", true);
 
                 Console.WriteLine("Player 2, please enter your name:");
                 string player2Name = Console.ReadLine();
@@ -45,7 +45,7 @@ namespace Lab04_Tic_Tac_Toe
                     Console.WriteLine("Please enter SOMETHING for a name.");
                     player2Name = Console.ReadLine();
                 }
-                Player player2 = new Player(player2Name, "O");
+                Player player2 = new Player(player2Name, "O", false);
 
                 Console.Clear();
                 Console.WriteLine($"Welcome, {player1.Name} and {player2.Name}.");
@@ -60,7 +60,7 @@ namespace Lab04_Tic_Tac_Toe
                 {
                     Console.WriteLine();
                     datGameBoard.DisplayBoard(datGameBoard.Layout);
-                    if (turn % 2 != 0)
+                    if (player1.IsActive == true)
                         Console.WriteLine($"{player1.Name}'s turn ({player1.Marker}).");
                     else
                         Console.WriteLine($"{player2.Name}'s turn ({player2.Marker}).");
@@ -90,27 +90,30 @@ namespace Lab04_Tic_Tac_Toe
                     }
 
 
-                    if (turn % 2 != 0)
+                    if (player1.IsActive == true)
                     {
                         datGameBoard.Layout = datGameBoard.UpdateBoard(chosenNum, datGameBoard.Layout, player1.Marker);
                         player1Win = CheckForWin(datGameBoard.Layout, player1.Marker);
                     }
-                    if (turn % 2 == 0)
+                    else
                     {
                         datGameBoard.Layout = datGameBoard.UpdateBoard(chosenNum, datGameBoard.Layout, player2.Marker);
                         player2Win = CheckForWin(datGameBoard.Layout, player2.Marker);
                     }
+
                     if (player1Win == true || player2Win == true)
                         takingTurns = false;
                     if (turn == 9)
                         takingTurns = false;
-                    turn++;
+
+                    player1.IsActive = player1.ChangePlayer(player1.IsActive);
+                    player2.IsActive = player2.ChangePlayer(player2.IsActive);
                 }
 
                 if (player1Win == true)
-                    Console.WriteLine("Player 1 wins!");
+                    Console.WriteLine($"{player1.Name} wins!");
                 if (player2Win == true)
-                    Console.WriteLine("Player 2 wins!");
+                    Console.WriteLine($"{player2.Name} wins!");
 
                 if (player1Win == false && player2Win == false)
                 {

@@ -32,10 +32,10 @@ namespace Lab04_Tic_Tac_Toe.Classes
         }
 
         /// <summary>
-        ///  
+        ///  Displays the board to the console
         /// </summary>
-        /// <param name="datBoard"></param>
-        /// <returns></returns>
+        /// <param name="datBoard">string array of values to display</param>
+        /// <returns>true value confirming whether the board was successfully displayed</returns>
         public bool DisplayBoard(string[][] datBoard)
         {
             if (datBoard.Length != 3)
