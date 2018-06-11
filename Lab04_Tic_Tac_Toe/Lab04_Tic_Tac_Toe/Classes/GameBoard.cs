@@ -7,7 +7,7 @@ namespace Lab04_Tic_Tac_Toe.Classes
     /// <summary>
     /// class that creates a game board and handles game board changes
     /// </summary>
-    class GameBoard
+    public class GameBoard
     {
         public string[][] Layout { get; set; }
         public string[][] Taken { get; set; }
@@ -28,6 +28,12 @@ namespace Lab04_Tic_Tac_Toe.Classes
         public GameBoard()
         {
             Layout = defaultLayout;
+            Taken = defaultTaken;
+        }
+
+        public GameBoard(string[][] testLayout)
+        {
+            Layout = testLayout;
             Taken = defaultTaken;
         }
 

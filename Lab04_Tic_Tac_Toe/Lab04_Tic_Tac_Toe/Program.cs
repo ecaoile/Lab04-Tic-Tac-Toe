@@ -3,7 +3,7 @@ using System;
 
 namespace Lab04_Tic_Tac_Toe
 {
-    class Program
+    public class Program
     {
         /// <summary>
         /// main entry point to the lab: opens up the game console and starts a tic-tac-toe game
@@ -28,7 +28,6 @@ namespace Lab04_Tic_Tac_Toe
             {
                 bool player1Win = false;
                 bool player2Win = false;
-                int roundNum = 1;
                 Console.WriteLine("Player 1, please enter your name:");
                 string player1Name = Console.ReadLine();
                 while (player1Name == "")
@@ -51,7 +50,7 @@ namespace Lab04_Tic_Tac_Toe
                 Console.WriteLine($"Welcome, {player1.Name} and {player2.Name}.");
                 Console.WriteLine($"{player1.Name}'s marker: {player1.Marker}.");
                 Console.WriteLine($"{player2.Name}'s marker: {player2.Marker}.");
-                Console.WriteLine($"Rouund {roundNum}...FIGHT!");
+                Console.WriteLine($"Ready...FIGHT!");
 
                 GameBoard datGameBoard = new GameBoard();
                 bool takingTurns = true;
@@ -105,7 +104,7 @@ namespace Lab04_Tic_Tac_Toe
                         takingTurns = false;
                     if (turn == 9)
                         takingTurns = false;
-
+                    turn++;
                     player1.IsActive = player1.ChangePlayer(player1.IsActive);
                     player2.IsActive = player2.ChangePlayer(player2.IsActive);
                 }
@@ -132,7 +131,6 @@ namespace Lab04_Tic_Tac_Toe
                 {
                     Console.Clear();
                     Console.WriteLine("Let's do this again!");
-                    roundNum++;
                 }
                 else
                     runProgram = false;

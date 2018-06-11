@@ -7,7 +7,7 @@ namespace Lab04_Tic_Tac_Toe.Classes
     /// <summary>
     /// class that handles the attributes for each player
     /// </summary>
-    class Player
+    public class Player
     {
         public string Name { get; set; }
         public string Marker { get; set; }
