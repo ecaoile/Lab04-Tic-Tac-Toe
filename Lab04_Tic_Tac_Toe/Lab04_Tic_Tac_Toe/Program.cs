@@ -14,12 +14,6 @@ namespace Lab04_Tic_Tac_Toe
             {
                 bool player1Win = false;
                 bool player2Win = false;
-                string[][] defaultLayout = new string[][] 
-                { 
-                    new string[] { "1", "2", "3" }, 
-                    new string[] { "4", "5", "6" }, 
-                    new string[] { "7", "8", "9" }
-                };
 
                 Console.WriteLine("Player 1, please enter your name:");
                 string player1Name = Console.ReadLine();
@@ -28,7 +22,7 @@ namespace Lab04_Tic_Tac_Toe
                     Console.WriteLine("Please enter SOMETHING for a name.");
                     player1Name = Console.ReadLine();
                 }
-                Player player1 = new Player(player1Name, 'X');
+                Player player1 = new Player(player1Name, "X");
 
                 Console.WriteLine("Player 2, please enter your name:");
                 string player2Name = Console.ReadLine();
@@ -37,15 +31,31 @@ namespace Lab04_Tic_Tac_Toe
                     Console.WriteLine("Please enter SOMETHING for a name.");
                     player2Name = Console.ReadLine();
                 }
-                Player player2 = new Player(player2Name, 'O');
+                Player player2 = new Player(player2Name, "O");
 
                 Console.Clear();
                 Console.WriteLine($"Welcome, {player1.Name} and {player2.Name}.");
                 Console.WriteLine($"{player1.Name}'s marker: {player1.Marker}.");
                 Console.WriteLine($"{player2.Name}'s marker: {player2.Marker}.");
                 Console.WriteLine($"Ready...FIGHT!\n");
-                DisplayBoard(defaultLayout);
 
+                GameBoard datGameBoard = new GameBoard();
+                bool player1Turn = true;
+                bool player2True = false;
+                bool takingTurns = true;
+                while (takingTurns = true)
+                {
+                    datGameBoard.DisplayBoard(datGameBoard.Layout);
+                    Console.WriteLine("Choose a number.");
+                    string chosenNum = Console.ReadLine();
+                    if (player1Turn == true)
+                        datGameBoard.Layout = datGameBoard.UpdateBoard(chosenNum, datGameBoard.Layout, player1.Marker);
+                    else
+                        datGameBoard.Layout = datGameBoard.UpdateBoard(chosenNum, datGameBoard.Layout, player2.Marker);
+                }
+                datGameBoard.DisplayBoard(datGameBoard.Layout);
+
+                Console.ReadLine();
                 if (player1Win == false && player2Win == false)
                 {
                     Console.WriteLine("It's a draw!");
@@ -70,19 +80,6 @@ namespace Lab04_Tic_Tac_Toe
 
             Console.WriteLine("Thank you for playing! Press any button to exit.");
             Console.ReadLine();
-        }
-
-        public static void DisplayBoard(string[][] datBoard)
-        {
-            Console.WriteLine("Current game board:");
-            for (int i = 0; i < 3; i++)
-            {
-                for (int j = 0; j < 3; j++)
-                {
-                   Console.Write($"|{datBoard[i][j]}|");
-                }
-                Console.WriteLine();
-            }
         }
 
     }

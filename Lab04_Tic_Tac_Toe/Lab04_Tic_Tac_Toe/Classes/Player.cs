@@ -7,9 +7,9 @@ namespace Lab04_Tic_Tac_Toe.Classes
     class Player
     {
         public string Name { get; set; }
-        public char Marker { get; set; }
+        public string Marker { get; set; }
 
-        public Player(string name, char marker)
+        public Player(string name, string marker)
         {
             Name = name;
             Marker = marker;
