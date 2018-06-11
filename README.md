@@ -14,7 +14,7 @@ The following is required to run the program.
 3. No External NuGet packages are required for this application. 
 
 ## Example
-![Lab 04 Screenshot](Lab04-SS.jpg)
+![Lab 04 Screenshot](Lab04-newSS.jpg)
 
 ## Program Path
  - enter two names for game
