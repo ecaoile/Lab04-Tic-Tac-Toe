@@ -1,0 +1,17 @@
+C:\Users\Unfie\codefellows\401\Lab04-Tic-Tac-Toe\Lab04_Tic_Tac_Toe\XUnitTestLab04\obj\Debug\netcoreapp2.0\XUnitTestLab04.csprojAssemblyReference.cache
+C:\Users\Unfie\codefellows\401\Lab04-Tic-Tac-Toe\Lab04_Tic_Tac_Toe\XUnitTestLab04\obj\Debug\netcoreapp2.0\XUnitTestLab04.csproj.CoreCompileInputs.cache
+C:\Users\Unfie\codefellows\401\Lab04-Tic-Tac-Toe\Lab04_Tic_Tac_Toe\XUnitTestLab04\obj\Debug\netcoreapp2.0\XUnitTestLab04.AssemblyInfoInputs.cache
+C:\Users\Unfie\codefellows\401\Lab04-Tic-Tac-Toe\Lab04_Tic_Tac_Toe\XUnitTestLab04\obj\Debug\netcoreapp2.0\XUnitTestLab04.AssemblyInfo.cs
+C:\Users\Unfie\codefellows\401\Lab04-Tic-Tac-Toe\Lab04_Tic_Tac_Toe\XUnitTestLab04\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Unfie\codefellows\401\Lab04-Tic-Tac-Toe\Lab04_Tic_Tac_Toe\XUnitTestLab04\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Unfie\codefellows\401\Lab04-Tic-Tac-Toe\Lab04_Tic_Tac_Toe\XUnitTestLab04\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Unfie\codefellows\401\Lab04-Tic-Tac-Toe\Lab04_Tic_Tac_Toe\XUnitTestLab04\bin\Debug\netcoreapp2.0\XUnitTestLab04.deps.json
+C:\Users\Unfie\codefellows\401\Lab04-Tic-Tac-Toe\Lab04_Tic_Tac_Toe\XUnitTestLab04\bin\Debug\netcoreapp2.0\XUnitTestLab04.runtimeconfig.json
+C:\Users\Unfie\codefellows\401\Lab04-Tic-Tac-Toe\Lab04_Tic_Tac_Toe\XUnitTestLab04\bin\Debug\netcoreapp2.0\XUnitTestLab04.runtimeconfig.dev.json
+C:\Users\Unfie\codefellows\401\Lab04-Tic-Tac-Toe\Lab04_Tic_Tac_Toe\XUnitTestLab04\bin\Debug\netcoreapp2.0\XUnitTestLab04.dll
+C:\Users\Unfie\codefellows\401\Lab04-Tic-Tac-Toe\Lab04_Tic_Tac_Toe\XUnitTestLab04\bin\Debug\netcoreapp2.0\XUnitTestLab04.pdb
+C:\Users\Unfie\codefellows\401\Lab04-Tic-Tac-Toe\Lab04_Tic_Tac_Toe\XUnitTestLab04\bin\Debug\netcoreapp2.0\Lab04_Tic_Tac_Toe.dll
+C:\Users\Unfie\codefellows\401\Lab04-Tic-Tac-Toe\Lab04_Tic_Tac_Toe\XUnitTestLab04\bin\Debug\netcoreapp2.0\Lab04_Tic_Tac_Toe.pdb
+C:\Users\Unfie\codefellows\401\Lab04-Tic-Tac-Toe\Lab04_Tic_Tac_Toe\XUnitTestLab04\obj\Debug\netcoreapp2.0\XUnitTestLab04.csproj.CopyComplete
+C:\Users\Unfie\codefellows\401\Lab04-Tic-Tac-Toe\Lab04_Tic_Tac_Toe\XUnitTestLab04\obj\Debug\netcoreapp2.0\XUnitTestLab04.dll
+C:\Users\Unfie\codefellows\401\Lab04-Tic-Tac-Toe\Lab04_Tic_Tac_Toe\XUnitTestLab04\obj\Debug\netcoreapp2.0\XUnitTestLab04.pdb

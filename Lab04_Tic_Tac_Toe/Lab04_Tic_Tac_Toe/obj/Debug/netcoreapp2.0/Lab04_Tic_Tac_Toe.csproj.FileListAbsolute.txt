@@ -1,0 +1,11 @@
+C:\Users\Unfie\codefellows\401\Lab04-Tic-Tac-Toe\Lab04_Tic_Tac_Toe\Lab04_Tic_Tac_Toe\bin\Debug\netcoreapp2.0\Lab04_Tic_Tac_Toe.deps.json
+C:\Users\Unfie\codefellows\401\Lab04-Tic-Tac-Toe\Lab04_Tic_Tac_Toe\Lab04_Tic_Tac_Toe\bin\Debug\netcoreapp2.0\Lab04_Tic_Tac_Toe.runtimeconfig.json
+C:\Users\Unfie\codefellows\401\Lab04-Tic-Tac-Toe\Lab04_Tic_Tac_Toe\Lab04_Tic_Tac_Toe\bin\Debug\netcoreapp2.0\Lab04_Tic_Tac_Toe.runtimeconfig.dev.json
+C:\Users\Unfie\codefellows\401\Lab04-Tic-Tac-Toe\Lab04_Tic_Tac_Toe\Lab04_Tic_Tac_Toe\bin\Debug\netcoreapp2.0\Lab04_Tic_Tac_Toe.dll
+C:\Users\Unfie\codefellows\401\Lab04-Tic-Tac-Toe\Lab04_Tic_Tac_Toe\Lab04_Tic_Tac_Toe\bin\Debug\netcoreapp2.0\Lab04_Tic_Tac_Toe.pdb
+C:\Users\Unfie\codefellows\401\Lab04-Tic-Tac-Toe\Lab04_Tic_Tac_Toe\Lab04_Tic_Tac_Toe\obj\Debug\netcoreapp2.0\Lab04_Tic_Tac_Toe.csprojAssemblyReference.cache
+C:\Users\Unfie\codefellows\401\Lab04-Tic-Tac-Toe\Lab04_Tic_Tac_Toe\Lab04_Tic_Tac_Toe\obj\Debug\netcoreapp2.0\Lab04_Tic_Tac_Toe.csproj.CoreCompileInputs.cache
+C:\Users\Unfie\codefellows\401\Lab04-Tic-Tac-Toe\Lab04_Tic_Tac_Toe\Lab04_Tic_Tac_Toe\obj\Debug\netcoreapp2.0\Lab04_Tic_Tac_Toe.AssemblyInfoInputs.cache
+C:\Users\Unfie\codefellows\401\Lab04-Tic-Tac-Toe\Lab04_Tic_Tac_Toe\Lab04_Tic_Tac_Toe\obj\Debug\netcoreapp2.0\Lab04_Tic_Tac_Toe.AssemblyInfo.cs
+C:\Users\Unfie\codefellows\401\Lab04-Tic-Tac-Toe\Lab04_Tic_Tac_Toe\Lab04_Tic_Tac_Toe\obj\Debug\netcoreapp2.0\Lab04_Tic_Tac_Toe.dll
+C:\Users\Unfie\codefellows\401\Lab04-Tic-Tac-Toe\Lab04_Tic_Tac_Toe\Lab04_Tic_Tac_Toe\obj\Debug\netcoreapp2.0\Lab04_Tic_Tac_Toe.pdb
