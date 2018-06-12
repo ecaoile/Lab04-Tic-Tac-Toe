@@ -68,8 +68,9 @@ namespace Lab04_Tic_Tac_Toe
 
                     Console.WriteLine("Choose a number.");
                     string chosenNum = Console.ReadLine();
-                    bool choseUnique = false;
+                    VerifyNum(chosenNum);
 
+                    bool choseUnique = false;
                     while (choseUnique == false)
                     {
                         bool foundMatch = false;
@@ -136,6 +137,25 @@ namespace Lab04_Tic_Tac_Toe
                 }
                 else
                     runProgram = false;
+            }
+        }
+
+        /// <summary>
+        /// method that verifies the entered number is an integer from 1 to 9
+        /// </summary>
+        /// <param name="chosenNum">user input</param>
+        public static void VerifyNum(string chosenNum)
+        {
+            bool isNumeric = int.TryParse(chosenNum, out int chosenNumIntForm);
+            while (isNumeric == false || chosenNumIntForm > 9 || chosenNumIntForm < 1)
+            {
+                Console.WriteLine();
+                if (isNumeric == false)
+                    Console.WriteLine("That was not a valid integer. Please try again.");
+                if (chosenNumIntForm > 9 || chosenNumIntForm < 1)
+                    Console.WriteLine("Pick one of the numbers in the list.");
+                chosenNum = Console.ReadLine();
+                isNumeric = int.TryParse(chosenNum, out chosenNumIntForm);
             }
         }
 
