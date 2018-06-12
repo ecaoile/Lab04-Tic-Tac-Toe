@@ -153,7 +153,7 @@ namespace Lab04_Tic_Tac_Toe
                 if (isNumeric == false)
                     Console.WriteLine("That was not a valid integer. Please try again.");
                 if (chosenNumIntForm > 9 || chosenNumIntForm < 1)
-                    Console.WriteLine("Pick one of the numbers in the list.");
+                    Console.WriteLine("Pick one of the numbers on the board.");
                 chosenNum = Console.ReadLine();
                 isNumeric = int.TryParse(chosenNum, out chosenNumIntForm);
             }
