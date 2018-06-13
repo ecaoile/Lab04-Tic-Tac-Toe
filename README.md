@@ -28,13 +28,13 @@ This application is created using ASP.NET Core 2.0 Console applicaitons. <br />
 *Type of Applicaiton*: Console Application <br />
 
 ## Change Log
-06-10-2018 4:30 PM - initial scaffolding
-06-10-2018 6:00 PM - board properly updating with markers on input
-06-10-2018 10:00 PM - properly detecting winner or draw
-06-11-2018 9:30 AM - refactored methods to work with testing
-06-11-2018 10:30 AM - refactored classes to work with testing
-06-11-2018 11:30 AM - testing complete
-06-11-2018 12:00 PM - finished readme
+06-10-2018 4:30 PM - initial scaffolding <br />
+06-10-2018 6:00 PM - board properly updating with markers on input <br />
+06-10-2018 10:00 PM - properly detecting winner or draw <br />
+06-11-2018 9:30 AM - refactored methods to work with testing <br />
+06-11-2018 10:30 AM - refactored classes to work with testing <br />
+06-11-2018 11:30 AM - testing complete <br />
+06-11-2018 12:00 PM - finished readme <br />
 
 
 
