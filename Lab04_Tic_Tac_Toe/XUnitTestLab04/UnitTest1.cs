@@ -20,7 +20,7 @@ namespace XUnitTestLab04
             };
             string marker = "X";
 
-            Assert.True(CheckForWin(testBoard, marker));
+            Assert.True(GameBoard.CheckForWin(testBoard, marker));
         }
 
         [Fact]
@@ -34,7 +34,7 @@ namespace XUnitTestLab04
             };
             string marker = "X";
 
-            Assert.True(CheckForWin(testBoard, marker));
+            Assert.True(GameBoard.CheckForWin(testBoard, marker));
         }
 
         [Fact]
@@ -48,7 +48,7 @@ namespace XUnitTestLab04
             };
             string marker = "O";
 
-            Assert.True(CheckForWin(testBoard, marker));
+            Assert.True(GameBoard.CheckForWin(testBoard, marker));
         }
 
         [Fact]
@@ -89,8 +89,8 @@ namespace XUnitTestLab04
                     new string[] { "O", "O", "X" },
                     new string[] { "X", "X", "O" }
             };
-            Assert.False(CheckForWin(testBoard, "X"));
-            Assert.False(CheckForWin(testBoard, "O"));
+            Assert.False(GameBoard.CheckForWin(testBoard, "X"));
+            Assert.False(GameBoard.CheckForWin(testBoard, "O"));
         }
     }
 }
